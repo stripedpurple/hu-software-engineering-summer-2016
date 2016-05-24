@@ -1,0 +1,75 @@
+<style>
+*{
+	font-family:"Open Sans", Arial, sans-serif;
+}
+hr{
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    background: none;
+
+}
+hr:after {
+    content: "§";
+	display: inline-block;
+    position: relative;
+    top: -.9em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;	
+}
+h2 {
+	border-bottom: none;
+}
+p{
+	text-indent: 2em;
+<!--font-size: 12pt;-->
+}
+
+div{
+	background-color: grey;
+}
+.no-indent{
+	text-indent: 0;
+}
+</style>
+
+<center><h1>Software Engineering Project Proposal</h1></center>
+
+
+---
+<p class='no-indent'><strong>Austin Barrett - Thursday, May 19, 2016</strong></p>
+
+##Proposal #1 - URL Shortener
+
+###Project Scope
+To complete this application, it will take an estimated minimum of 46 man hours. The application will require a web-server capable of running simple software and scripting languages. Once completed the shortener would have an API, as well as a user interface with the minimal functionality.
+
+###What does this solve?
+The problem I  am looking to solve is simply the length of links to webpages. This is a problem in many areas including character limited text fields, none digital communication in which links need to be 
+
+###Why is it important?
+From and educational stand point this project would provide a simple, but fully involved, opportunity to express concepts in the software development processes, as well as principals in software engineering. I believe that project is simple enough to provide necessary facets of software engineering despite my inability to work with a team. 
+
+Hypothetically, the shortener has many business and financial applications, For example the site could be subjected to an ad revenue model, in which companies pay to advertise on the site. From a business standpoint the site could be used to does analytics on internet traffics. This could then be rolled into a pro version of the site which would run on a subscription model.
+
+###Tools Needed
+The application will use a sundry of tools including, but not limited to, Node JS, Ningx, ExpressJS, and Level DB. Further, this project will be completed using a VCS (Version Control System), most likely git, WebStorm (Professional IDE), and Digital Ocean for web-hosting.
+
+##Proposal #1 - Off Take Map (CRUD App)
+
+###Project Scope
+To complete this application, it will take an estimated minimum of 46 man hours. The application will require a web-server capable of running simple software and scripting languages. Users will be able to added, remove, update, and view location on a map.
+
+###What does this solve?
+The problem I am solving here is an actual real life problem at the company I  work for. The map would act as a visual and interactive record of potential site for new facilities. Providing this would alleviate the time require to construct the map manually, and provide company employee independence.
+
+###Why is it important?
+From and educational stand point this project would provide a simple, but fully involved, opportunity to express concepts in the software development processes, as well as principals in software engineering. I believe that project is simple enough to provide necessary facets of software engineering despite my inability to work with a team. 
+
+The business application of this software can be seen as a means of increasing the efficiency of the use of employee's time, thus making better use of said time and allow for application of it in other more highly valued ways.
+
+###Tools Needed
+The application will use a sundry of tools including, but not limited to, Ningx, and the LEAN Stack (Level DB, ExpressJS, Angular JS, and Node JS. Further, this project will be completed using the VCS (Version Control System) git, facilitated over BitBucket, WebStorm (Professional IDE), and Amazon Web Services (AWS) for all cloud based needs.
